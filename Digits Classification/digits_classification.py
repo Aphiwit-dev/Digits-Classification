@@ -24,8 +24,8 @@ def predict_digit(imgfiles):
     plt.figure(figsize=(2,2))
     plt.imshow(pixel,cmap = plt.cm.gray_r)
     plt.title('predicted : {}'.format(predicted[0]))
-    plt.xticks()
-    plt.yticks()
+    plt.xticks([])
+    plt.yticks([])
     plt.show()
 
 imgfiles = ['digit_input1.jpg','digit_input2.jpg','digit_input4.jpg','digit_input7.jpg'] #ตัวอย่างการใส่ชื่อไฟล์ภาพที่ต้องการทำนาย
